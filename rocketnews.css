@@ -1,0 +1,180 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+#container {
+    position: relative;
+}
+
+.backgroundblack {
+    background-color: #121214;
+    width: 50%;
+    height: 100vh;
+}
+
+.backgroundimg {
+    height: 100vh;
+    width: 50%;
+    background-image: url(https://i.ibb.co/S03SdmV/read-news.jpg);
+    background-position: top 10% right 22%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* código para mostrar apenas 50% da div Cinzenta (coberturas1) */
+    position: absolute;
+    top: 0px;
+    /* muda este valor para "0" - Isto foi apenas mostrar o que está a acontecer por detrás da div */
+    right: 0%;
+    /* 25% significa metade ( que neste caso será 50%) do tamanho de ambas as divs */
+
+}
+
+
+.logo {
+    width: 389px;
+    height: 94px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+.text {
+    width: 647px;
+    height: 102px;
+    margin-top: 92px;
+    margin-left: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #04D361;
+
+
+}
+
+h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+
+}
+
+p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.labelbel {
+    color: #A8A8A8;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    margin: 50px 0 17px 26px;
+
+}
+
+.dataform {
+
+    display: flex;
+    margin-left: 26px;
+    
+    position:fixed;
+    z-index: 3;
+}
+
+
+
+.green {
+    width: 5px;
+    height: 48px;
+    background-color: #04D361;
+}
+
+#email {
+    width: 750px;
+    height: 48px;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+#sendbtn {
+    all: unset;
+    width: 48px;
+    height: 48px;
+
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' class='send'%3E%3Cpath d='M22 2L11 13' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /%3E%3Cpath d='M22 2L15 22L11 13L2 9L22 2Z' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #8257e5;
+    
+
+}
+
+.bottomtext {
+    width: 196px;
+    height: 24px;
+    margin-left: 26px;
+    margin-top: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: start
+}
+
+span {
+    color: #8257e5;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+
+}
+
+.arrow {
+    margin-left: 5px;
+}
